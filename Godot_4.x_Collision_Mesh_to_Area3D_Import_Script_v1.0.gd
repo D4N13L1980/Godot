@@ -81,7 +81,7 @@ Requirements:
 
 @export var save_as_tscn: bool = true  # Option to enable or disable saving as .tscn
 @export var hint_tag: String = "_CM"  # Default "_CM" for the Collision Mesh
-@export var debug_mode: bool = true  # Enable/disable verbose logging
+@export var debug_mode: bool = false  # Enable/disable verbose logging
 
 
 func _post_import(scene: Node) -> Node:
